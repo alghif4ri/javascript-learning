@@ -1,0 +1,23 @@
+//Lesson 1
+
+NodeList
+memilih lebih dari 1 node, struktur datanya mirip array, tidak bersifat live
+
+HTMLCollection
+kumpulan node khusus tipe element, struktur datanya mirip array, bersifat live
+
+
+Struktur Hierarki / DOM Tree
+-Root Node
+node yang menjadi sumber dari semua node lain di dalam DOM
+node tersebut document
+-Parent Node
+node yang berada 1 tingkat diatas node lain
+-Child Node
+node yang berada 1 tingkat dibawah node lain (tidak termasuk root)
+-Children node
+semua child node pada suatu parent node
+-Siblings node
+sibling node adalah node dengan parent yang sama
+-destendent
+child atau children node
